@@ -170,3 +170,39 @@ Tasks:
 Deliverable: a working app where a screenshot automatically appears in the correct category and can be found through search.
 
 Start the gallery using fake records so you do not have to wait for the AI or storage components.
+
+
+
+
+
+
+# Suggested naming:
+
+text
+capture.py       → Person A
+ai_analysis.py   → Person B
+storage.py       → Person C
+app.py           → Person D
+
+Person D should coordinate integration, but everyone should help debug their own component when it is connected.
+
+
+What to leave out today
+
+Do not spend your remaining time on:
+
+    A perfect Snipping Tool clone.
+
+    Global keyboard shortcuts.
+
+    AI-generated unlimited categories.
+
+    Semantic/vector search.
+
+    Cloud sync or accounts.
+
+    An installer.
+
+Your strongest demo is simple: capture a lecture diagram, show its automatically created folder and tags, capture a second diagram into the same folder, then search “binary tree” and retrieve it.
+
+Also, if images go to an external AI API, make that clear in the app and use non-sensitive screenshots for the demo.
