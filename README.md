@@ -44,7 +44,9 @@ capture_screenshot() -> image_path
 If using Python, MSS supports capturing screen regions; the selection overlay is a separate interface task you would still need to implement. Test capture on the actual demo laptop immediately rather than assuming it works everywhere.
 
 Fallback: if region selection takes too long, start with full-screen capture or importing an image. This lets the other three people keep working.
-2. Person B — AI image analysis
+
+
+# 2. Person B — AI image analysis
 
 Owns: turning an image into useful metadata.
 
@@ -93,7 +95,10 @@ Receipts
 Other
 
 This still creates folders automatically when first needed, but avoids inconsistent categories such as Diagram, Diagrams and Lecture diagrams.
-3. Person C — folder organisation and search
+
+
+
+# 3. Person C — folder organisation and search
 
 Owns: saving the image and making its metadata searchable.
 
@@ -134,7 +139,9 @@ When someone searches “tree,” your app searches the stored title, tags and d
 SQLite is a suitable local option because it does not require a separate database server, and Python provides a sqlite3 interface.
 
 Keep category folder names restricted to your agreed list; do not use arbitrary AI text as a filesystem path.
-4. Person D — gallery, integration and demo
+
+
+# 4. Person D — gallery, integration and demo
 
 Owns: the usable application and connecting everyone’s work.
 
