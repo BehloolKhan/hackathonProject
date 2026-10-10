@@ -38,7 +38,7 @@ def _main_monitor(sct: mss.base.MSSBase) -> dict:
 
 def _grab_main_monitor() -> tuple[Image.Image, dict]:
     """Take a full screenshot of the main monitor; return (image, monitor)."""
-    with mss.sss() as sct:
+    with mss.mss() as sct:
         mon = _main_monitor(sct)
         shot = sct.grab(mon)
 
