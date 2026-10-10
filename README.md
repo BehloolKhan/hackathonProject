@@ -20,7 +20,7 @@ App creates/reuses the category folder
       ↓
 Screenshot appears in your searchable gallery
 
-1. Person A — screenshot capture
+# 1. Person B — screenshot capture
 
 Owns: the snipping-tool behaviour.
 
@@ -46,7 +46,7 @@ If using Python, MSS supports capturing screen regions; the selection overlay is
 Fallback: if region selection takes too long, start with full-screen capture or importing an image. This lets the other three people keep working.
 
 
-# 2. Person B — AI image analysis
+# 2. Person A — AI image analysis
 
 Owns: turning an image into useful metadata.
 
